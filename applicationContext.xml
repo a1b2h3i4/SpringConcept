@@ -9,5 +9,8 @@
 <bean id="studentbean" class="Student">  
 <property name="name" value="Abhishek Gupta"></property>  
 </bean>  
-  
+<bean id="e" class="Employee">  
+<constructor-arg value="10" type="int"></constructor-arg>  
+<constructor-arg value="10" type="String"></constructor-arg>  
+</bean>    
 </beans>  
