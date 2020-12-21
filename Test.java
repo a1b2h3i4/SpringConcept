@@ -14,5 +14,11 @@ public static void main(String[] args) {
     s.show();  
     Employee s1=(Employee)factory.getBean("e1");  
     s1.show();  
+    Question q=(Question)factory.getBean("q");  
+    q.displayInfo();  
+    Question q1=(Question)factory.getBean("q2");  
+    q1.displayInfo();  
+    Salary salary=(Salary)factory.getBean("salary");  
+    salary.displayInfo();  
 }  
 }  
