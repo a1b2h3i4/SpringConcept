@@ -20,5 +20,7 @@ public static void main(String[] args) {
     q1.displayInfo();  
     Salary salary=(Salary)factory.getBean("salary");  
     salary.displayInfo();  
+    SetterDemo setterDemo=(SetterDemo)factory.getBean("setterDemo");  
+    System.out.println(setterDemo.getId());  
 }  
 }  
