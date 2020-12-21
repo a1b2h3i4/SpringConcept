@@ -12,5 +12,7 @@ public static void main(String[] args) {
     student.displayInfo();  
     Employee s=(Employee)factory.getBean("e");  
     s.show();  
+    Employee s1=(Employee)factory.getBean("e1");  
+    s1.show();  
 }  
 }  

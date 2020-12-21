@@ -8,4 +8,4 @@ For Java<a href="https://www.oracle.com/java/technologies/javase/javase7-archive
 For Spring Libraries--<a href="https://static.javatpoint.com/src/sp/spcorejars.zip">Spring Libraries</a>
 </h3>
 add these jar files in jdk/lib/ and jre/lib/ext
-and first compile these java file and then run the class.
+and first compile these java file and then run the Test class.
